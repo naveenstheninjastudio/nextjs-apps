@@ -1,0 +1,45 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Jisoo",
+      "full_name": "Kim Ji-soo",
+      "role": "Lead Vocalist, Visual",
+      "birth_date": "1995-01-03",
+      "nationality": "South Korean",
+      "bio": "Jisoo is the eldest member of BLACKPINK, known for her stunning visuals and sweet yet powerful vocals. She has also acted in K-dramas and is admired for her charm and elegance.",
+      "image": "/images/jisoo.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jennie",
+      "full_name": "Kim Jennie",
+      "role": "Main Rapper, Lead Vocalist",
+      "birth_date": "1996-01-16",
+      "nationality": "South Korean",
+      "bio": "Jennie is known for her fierce rap style, stage charisma, and unique fashion sense. She was the first member to debut as a solo artist with her single 'SOLO'.",
+      "image": "/images/jennie.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rosé",
+      "full_name": "Roseanne Park",
+      "korean_name": "Park Chae-young",
+      "role": "Main Vocalist, Lead Dancer",
+      "birth_date": "1997-02-11",
+      "nationality": "Korean-New Zealander (Raised in Australia)",
+      "bio": "Rosé is recognized for her soulful voice and emotional performances. She plays guitar and piano, and debuted as a soloist with the album 'R'.",
+      "image": "/images/rose.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lisa",
+      "full_name": "Lalisa Manobal",
+      "role": "Main Dancer, Lead Rapper, Sub Vocalist",
+      "birth_date": "1997-03-27",
+      "nationality": "Thai",
+      "bio": "Lisa is the only non-Korean member of BLACKPINK. Famous for her powerful dance skills and rap, she has a huge international fanbase and debuted as a soloist with 'LALISA'.",
+      "image": "/images/lisa.jpg"
+    }
+  ]
+}
