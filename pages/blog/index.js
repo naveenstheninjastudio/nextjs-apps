@@ -1,19 +1,22 @@
 import Link from "next/link";
+import styles from "@/styles/blog.module.css";
+import data from "@/pages/blog/blackpink.json";
 
-import "@/styles/blog.module.css";
-export default function BlogPage() {
+export const getStaticProps = async () => {
+  return {
+    props: { blog: data },
+  };
+};
+
+export default function BlogPage({ blog }) {
   return (
     <div>
-      <div className="main">blog index page</div>
-      <p>
-        <Link href="/blog/post1">post1</Link>
-      </p>
-      <p>
-        <Link href="/blog/post2">post2</Link>
-      </p>
-      <p>
-        <Link href="../">home</Link>
-      </p>
+      {blog.map((e) => (
+        <Link href={`/blog/${e.id}`} className={styles.blogItem} key={e.id}>
+          <h2>{e.name}</h2>
+          <img src={e.image} alt={e.name} />
+        </Link>
+      ))}
     </div>
   );
 }
