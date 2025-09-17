@@ -142,3 +142,11 @@ footer {
     height: 10vh;
   }
 }
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
